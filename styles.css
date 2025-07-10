@@ -386,17 +386,3 @@ body {
 .footer-links a:hover {
   color: var(--accent-color);
 }
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .hero-container,
-  .about-content,
-  .contact-content {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .services-grid {
-    gap: 1rem;
-  }
-}
